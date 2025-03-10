@@ -43,7 +43,7 @@ git:
     paging:
         colorArg: always
         useConfig: false
-        pager: delta --dark --paging=never
+        pager: delta --dark --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
     merging:
         # only applicable to unix users
         manualCommit: false
